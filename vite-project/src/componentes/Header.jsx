@@ -3,7 +3,7 @@ import Avatar from '../assets/avatar.jpeg'; // Asumiendo que tienes una imagen e
 
 const Header = () => {
   return (
-    <header className="flex items-center justify-between bg-white py-4  px-8 text-black min-h-20 fixed w-full ">
+    <header className="flex items-center justify-between bg-white py-4  px-8 text-black min-h-20 fixed w-full z-10">
         <img src={Avatar} alt="Logo" className="h-20 w-20" />      
       {/* Enlaces a la derecha */}
       <nav className="flex items-center space-x-4 gap-5">
