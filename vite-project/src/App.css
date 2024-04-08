@@ -1,0 +1,23 @@
+.heading::after{
+    content: '';
+    position: absolute;
+    top: calc(100% + 1.5rem);
+    height: 5px;
+    width: 3rem;
+    background: #7843E9;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+
+.heading-form::after{
+    content: '';
+    position: absolute;
+    top: calc(46%);
+    height: 5px;
+    width: 3rem;
+    background: #7843E9;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}

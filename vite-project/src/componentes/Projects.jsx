@@ -2,12 +2,12 @@ import React from 'react';
 import dopefolio from '../assets/dopefolio.jpeg';
 import wilsonport from '../assets/wilsonport.jpeg';
 import coffe from '../assets/coffee.jpeg';
-
+import '../App.css'
 const Projects = () => {
   return (
     <>
         <div className='container px-4 m-auto py-48'>
-            <h2>
+            <h2 className='heading-form relative'>
             <span className="block text-4xl uppercase tracking-wider text-center mb-14 relative text-black ">Projects</span>
             <span className="block text-center text-gray-600 text-lg font-medium max-w-screen-md mx-auto leading-relaxed">
             Here you will find some of the personal and clients projects that I created with each project containing its own case study

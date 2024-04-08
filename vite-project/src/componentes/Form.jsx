@@ -1,11 +1,11 @@
 import React from 'react';
 import commonBg from '../assets/commonBg.svg'; 
-
+import '../App.css'
 const Form = () => {
   return (
     <div className="bg-cover bg-center min-h-screen py-48" style={{ backgroundImage: `url(${commonBg})` }}>
-        <h2 className='mb-36'>
-            <span className="block text-4xl uppercase tracking-wider text-center mb-14 relative text-black ">Projects</span>
+        <h2 className='mb-36 heading-form relative'>
+            <span className="block text-4xl uppercase tracking-wider text-center mb-14 relative text-black ">Contact</span>
             <span className="block text-center text-gray-600 text-lg font-medium max-w-screen-md mx-auto leading-relaxed">
             Here you will find some of the personal and clients projects that I created with each project containing its own case study
             </span>
