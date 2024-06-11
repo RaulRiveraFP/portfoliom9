@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub, FaTwitter, FaYoutube } from 'react-icons/fa';
 const Footer = () => {
   return (
     <div className='bg-black w-full text-white text-left'>
-        <div className='py-32 flex m-auto justify-between' style={{ maxWidth: '60rem', width: '100%' }}>
+        <div className='py-32 px-8 md:px-0 flex m-auto justify-between' style={{ maxWidth: '60rem', width: '100%' }}>
             <div>
                 <h2 className="text-2xl uppercase font-bold tracking-wide mb-4">Raul Rivera</h2>
                 <p className="text-base text-gray-300">A Frontend focused Web Developer building the Frontend <br/> of Websites and Web Applications that leads to the success <br/> of the overall product</p>

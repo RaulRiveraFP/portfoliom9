@@ -5,7 +5,7 @@ import SkillsComponent from './AboutMe/SkillsComponent';
 const AboutMe = () => {
   return (
     <>
-    <div className='bg-gray-50'>
+    <div className='bg-gray-50' id='about'>
         <div className='container px-4 m-auto py-48'>
             <h2 className='heading-form relative'>
             <span className="block text-4xl uppercase tracking-wider text-center mb-14 relative text-black ">ABOUT ME</span>
@@ -13,7 +13,7 @@ const AboutMe = () => {
                 Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology
             </span>
             </h2>
-            <div className='flex pt-20 w-100 justify-center gap-12'>
+            <div className='md:flex pt-20 w-100 justify-center gap-12'>
             <IntroductionComponent/>
             <SkillsComponent/>
             </div>
